@@ -18,11 +18,6 @@ public class sorting {
         (2)如果最小元素不是待排序序列的第一个元素，将其和第一个元素互换；
         (3)从余下的 N - 1 个元素中，找出关键字最小的元素，重复(1)、(2)步，直到排序结束
         */
-        /*int[] a = new int[5];
-        for (int i=0;i<a.length;i++){
-            a[i]=(int)(Math.random()*100);
-            System.out.print(a[i]+"\t");//转义字符的用法
-        }*/
         System.out.println();
         for (int i = 0; i <a.length-1 ; i++) {
             int min = a[i];
@@ -46,10 +41,7 @@ public class sorting {
 
     public static void test01(int[] a){//用冒泡法排序
         /*int[] a = new int[5];
-        for (int i=0;i<a.length;i++){
-            a[i]=(int)(Math.random()*100);
-            System.out.print(a[i]+"\t");//转义字符的用法
-        }*/
+        
         /*
          每一趟排序找出最大/小值，将最值放到开头/末尾，这是选择排序法和冒泡排序法的
          相通之处，但最终如何实现将最值放置在开头/末尾稍有差别。
